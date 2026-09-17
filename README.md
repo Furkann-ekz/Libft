@@ -1,8 +1,12 @@
 *This project has been created as part of the 42 curriculum by fekiz.*
 
+
+
 ## Description
 
 This project involves coding a C library that includes numerous general-purpose functions. It serves to help understand how highly useful standard libc functions work by implementing them from scratch. The resulting library will be a valuable tool for future C school assignments in the curriculum.
+
+
 
 ## Instructions
 
