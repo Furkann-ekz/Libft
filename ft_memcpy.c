@@ -6,7 +6,7 @@
 /*   By: fekiz <fekiz@student.42istanbul.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 16:37:45 by fekiz             #+#    #+#             */
-/*   Updated: 2026/09/17 13:56:50 by fekiz            ###   ########.fr       */
+/*   Updated: 2026/09/17 14:05:47 by fekiz            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,10 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 
 	if (!dst && !src)
 		return (NULL);
-	i = 0;
+	i = -1;
 	tmp_dst = (char *)dst;
 	tmp_src = (char *)src;
-	while (i < n)
-	{
+	while (++i < n)
 		tmp_dst[i] = tmp_src[i];
-		i++;
-	}
 	return (dst);
 }
